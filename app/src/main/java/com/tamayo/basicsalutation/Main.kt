@@ -39,4 +39,43 @@ fun main(args: Array<String>){
     /*idealmente el codigo no deberia tener warnings
     que se ubican en la parte derecha
      */
+
+    //condicionales
+    val lives = 3
+
+    var isGameOver = (lives < 1)
+
+    if(isGameOver){
+        println("Game is over")
+    } else {
+        println("the player is till alive")
+    }
+
+    println("How old are you?")
+    val age = readLine()!!.toInt()
+    println("Your age is $age")
+
+    val message: String
+    message = when {
+        age < 18 -> {
+            "you are too young to vote"
+        }
+        age == 100 -> {
+            "congratulations"
+        }
+        else -> {
+            "you can vote"
+        }
+    }
+
+//    message = if(age < 18){
+//        "you are too young to vote"
+//    } else if(age == 100){
+//        "congratulations"
+//    } else {
+//        "you can vote"
+//    }
+    println(message)
+
+
 }
