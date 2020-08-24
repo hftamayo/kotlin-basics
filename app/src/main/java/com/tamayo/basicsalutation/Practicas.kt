@@ -1,6 +1,7 @@
 package com.tamayo.basicsalutation
 
 class Practicas {
+    /*
     println("Hola a todos")
     println("primer programa en Kotlin")
 
@@ -76,5 +77,5 @@ class Practicas {
 //        "you can vote"
 //    }
     println(message)
-
+*/
 }

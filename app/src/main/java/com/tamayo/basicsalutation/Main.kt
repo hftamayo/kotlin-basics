@@ -12,6 +12,9 @@ fun main(args: Array<String>){
     //louise.level = 5
     louise.show()
 
-
-
+    //sesion 35: more of lists
+    val RedPotion = Loot("Red Potion", LootType.POTION, 7.50)
+    tim.inventory.add(RedPotion)
+    tim.showInventory()
+    println(tim)
 }
