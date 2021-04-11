@@ -25,6 +25,10 @@ class Player(val name: String, var level: Int = 1) {
 
     fun showInventory(){
         println("$name's Inventory")
+        for(item in inventory){
+            println(item)
+        }
+
         println(inventory.get(0))
         println("==================")
     }
