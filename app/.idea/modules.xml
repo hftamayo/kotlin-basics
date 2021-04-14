@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1908719229/BasicSalutation.iml" filepath="$PROJECT_DIR$/.idea/modules/-1908719229/BasicSalutation.iml" group="BasicSalutation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BasicSalutation-app.iml" filepath="$PROJECT_DIR$/.idea/modules/BasicSalutation-app.iml" group="BasicSalutation/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" />
     </modules>
   </component>
