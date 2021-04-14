@@ -3,7 +3,8 @@ package com.tamayo.basicsalutation
 class Player(val name: String, var level: Int = 1) {
     var lives = 3
     var score = 0
-    val inventory = ArrayList<Loot>()
+    //leccion 38: encapsulating properties
+    private val inventory = ArrayList<Loot>()
 
     fun show(){
         if(lives > 0){
@@ -21,6 +22,20 @@ class Player(val name: String, var level: Int = 1) {
             level: $level
             score: $score
         """
+    }
+
+    fun getLoot(item: Loot){
+        inventory.add(item)
+        //code to save the inventory
+    }
+
+    fun dropLoot(item: Loot): Boolean {
+        return if(inventory.contains(item)){
+            inventory.remove(item)
+            true
+        } else {
+            false
+        }
     }
 
     fun showInventory(){
