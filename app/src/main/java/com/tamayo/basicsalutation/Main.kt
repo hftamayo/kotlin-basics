@@ -1,5 +1,9 @@
 package com.tamayo.basicsalutation
 
+import android.os.Build
+import androidx.annotation.RequiresApi
+
+@RequiresApi(Build.VERSION_CODES.N)
 fun main(args: Array<String>){
     val tim = Player("tim")
 //    println(tim.name)
@@ -34,6 +38,16 @@ fun main(args: Array<String>){
     } else {
         println("you dont have a ${bluePotion.name}")
     }
+
+    //lesson39: example of overloading
+    if(tim.dropLoot("Invisibility Potion")){
+        tim.showInventory()
+    }
+    else{
+        println("You dont have an invisibility potion")
+    }
+
+
 
 
 
