@@ -5,6 +5,7 @@ import androidx.annotation.RequiresApi
 
 @RequiresApi(Build.VERSION_CODES.N)
 fun main(args: Array<String>){
+/*
     val tim = Player("tim")
 //    println(tim.name)
 //    println(tim.lives)
@@ -47,9 +48,7 @@ fun main(args: Array<String>){
         println("You dont have an invisibility potion")
     }
 
-
-
-
-
     println(tim.toString())
+ */
+
 }
