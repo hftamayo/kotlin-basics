@@ -5,6 +5,19 @@ import androidx.annotation.RequiresApi
 
 @RequiresApi(Build.VERSION_CODES.N)
 fun main(args: Array<String>){
+    val enemy = Enemy("test enemy", 10, 3)
+    println(enemy)
+
+    enemy.takeDamage(4)
+    println(enemy)
+
+    enemy.takeDamage(11)
+    println(enemy)
+
+    val uglyTroll = Troll("ugly troll", 27, 1)
+    println(uglyTroll)
+    uglyTroll.takeDamage(8)
+    println(uglyTroll)
 /*
     val tim = Player("tim")
 //    println(tim.name)
